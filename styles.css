@@ -24,6 +24,7 @@
                         left: 50%;
                         transform: translate(-50%, -50%);
                         color: white;
+                        font-family: "Lilita One", cursive;
                     }
                     
                     .hero-text button {
@@ -37,6 +38,7 @@
                         font-weight: bold;
                         font-size: 20px;
                         cursor: pointer;
+                        font-family: "Lilita One", cursive;
                     }
                     
                     .hero-text button:hover {
@@ -160,6 +162,7 @@
                         color: #565250;
                         font-size: 40px;
                         font-weight: bold;
+                        font-family: "Lilita One", cursive;
                     }
                     
                     .about-text p {
@@ -172,6 +175,7 @@
                         background-color: #4c4940;
                         padding: 30px 20px;
                         line-height: 20px;
+                        font-family: "Lilita One", cursive;
                     }
                     
                     .about-right h1,
@@ -319,16 +323,17 @@
                         justify-content: center;
                         align-items: center;
                         color: #4c4940;
+                        font-family: "Lilita One", cursive;
                     }
                     
-                    .product-section {
+                    .all-cards {
                         display: grid;
                         grid-template-columns: repeat(3, 1fr);
                         grid-template-rows: auto;
                         margin: auto;
                     }
                     
-                    .product-section .card {
+                    .all-cards .card {
                         padding: 0px 30px;
                     }
                     
@@ -338,21 +343,22 @@
                         border-radius: 2px;
                     }
                     
-                    .product-section .card .container {
+                    .all-cards .card .container {
                         background-color: #4c4940;
                         padding: 10px;
                         border-radius: 2px;
                     }
                     
-                    .product-section .card .container h2 {
+                    .all-cards .card .container h2 {
                         color: #dcd0d0;
+                        font-family: "Lilita One", cursive;
                     }
                     
-                    .product-section .card .container p {
+                    .all-cards .card .container p {
                         color: #99907a;
                     }
                     
-                    .product-section .card .container button {
+                    .all-cards .card .container button {
                         font-weight: bold;
                         font-size: 18px;
                         background-color: #99907a;
@@ -363,9 +369,10 @@
                         margin: auto;
                         cursor: pointer;
                         border-radius: 2px;
+                        font-family: "Lilita One", cursive;
                     }
                     
-                    .product-section .card .container button:hover {
+                    .all-cards .card .container button:hover {
                         color: #99907a;
                         border: 2px solid #99907a;
                         background-color: #4c4940;
@@ -375,7 +382,7 @@
                         .Product-title {
                             margin: 50px 0px 50px 0px;
                         }
-                        .product-section {
+                        .all-cards {
                             display: grid;
                             grid-template-columns: repeat(1, 1fr);
                             grid-template-rows: auto;
