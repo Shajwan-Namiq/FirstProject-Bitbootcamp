@@ -53,7 +53,7 @@
                         justify-content: center;
                         height: 52px;
                         background-color: #7c776a;
-                        box-shadow: 0 8px 8px -4px lightgoldenrodyellow;
+                        box-shadow: 0 8px 8px -2px lightgoldenrodyellow;
                         position: relative;
                         padding: 0px 20px;
                         font-family: "Lilita One", cursive;
@@ -173,6 +173,9 @@
                     }
                     
                     .about-right {
+                        position: relative;
+                        top: -20px;
+                        left: 20px;
                         grid-column: sidebar;
                         background-color: #4c4940;
                         padding: 30px 20px;
@@ -228,6 +231,9 @@
                             padding: 10px;
                         }
                         .about-right {
+                            position: relative;
+                            top: 0px;
+                            left: 0px;
                             grid-column: about;
                             background-color: #4c4940;
                             padding: 10px;
