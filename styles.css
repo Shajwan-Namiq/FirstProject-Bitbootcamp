@@ -202,7 +202,7 @@
                         margin-right: 5px;
                     }
                     
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 834px) {
                         .about-section {
                             background-color: #99907a;
                             width: 100%;
@@ -371,7 +371,7 @@
                         background-color: #4c4940;
                     }
                     
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 834px) {
                         .Product-title {
                             margin: 50px 0px 50px 0px;
                         }
