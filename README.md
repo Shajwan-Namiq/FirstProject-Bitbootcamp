@@ -4,6 +4,6 @@
 
 # Tools
 <li>HTML</>
-<li>CSS(Grid css & media query)</>
+<li>CSS(css grid & media query)</>
 <li>JS</>
  
