@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 500px;
+    padding-top: 600px;
 }
 
 .hero-text {
@@ -45,17 +45,6 @@ body {
     background-color: #7c776a;
     color: #fff;
     cursor: pointer;
-}
-
-.about-text1 {
-    padding: 40px 0px 20px 20px;
-    color: #222b36;
-}
-
-.about-text2 {
-    padding: 20px;
-    line-height: 30px;
-    color: #91a7b6;
 }
 
 
@@ -149,6 +138,74 @@ body {
     .nav>#nav-check:checked~.nav-links {
         height: 30vh;
     }
+}
+
+.test {
+    margin: 100px;
+}
+
+
+/* About*/
+
+.about-section {
+    background-color: #99907a;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70px 30px;
+    grid-template-rows: auto;
+    grid-template-areas: "about about about sidebar";
+}
+
+.about-text {
+    grid-column: about;
+    padding: 25px;
+}
+
+.about-text h1 {
+    color: #565250;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-text p {
+    color: #565250;
+    font-size: 16px;
+}
+
+.about-right {
+    grid-column: sidebar;
+    background-color: #4c4940;
+    padding: 30px 20px;
+    line-height: 20px;
+}
+
+.about-right h1,
+.about-right h3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #afa8a8;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icon-about {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-about .icon1,
+.icon-about .icon2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-about .icon1 svg,
+.icon-about .icon2 svg {
+    width: 20px;
+    margin-right: 5px;
 }
 
 
