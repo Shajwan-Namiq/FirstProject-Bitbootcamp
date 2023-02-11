@@ -223,12 +223,11 @@
                         }
                         .about-text {
                             grid-column: about;
-                            padding: 10px;
+                            padding: 30px;
                         }
                         .about-right {
                             grid-column: about;
                             background-color: #4c4940;
-                            padding: 10px;
                         }
                         .about-right {
                             position: relative;
